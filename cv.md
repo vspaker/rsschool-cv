@@ -6,9 +6,9 @@
 
 ### Contacts
 
-**Phone:** +79679891035
-**E-mail:** vspaker@ya.ru
-**Telegram:** @ajambex
+* **Phone:** +79679891035
+* **E-mail:** vspaker@ya.ru
+* **Telegram:** @ajambex
 
 ### Briefly About Myself
 
