@@ -4,6 +4,102 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV: Pavel Nikolaev, Junior Frontend Developer</title>
+    <link rel="stylesheet" href="/styles/reset.css" />
+    <link rel="stylesheet" href="/styles/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <main>
+      <section class="about">
+        <img
+          class="photo"
+          src="images/photo.jpg"
+          alt="Pavel Nikolaev, Frontend developer"
+          width="250"
+          height="250"
+        />
+        <article class="name">
+          <h1>Pavel Nikolaev</h1>
+          <h2>Junior Frontend Developer</h2>
+        </article>
+        <article class="contacts">
+          <h3>Contact</h3>
+          <ul>
+            <li class="phone">+79679891035</li>
+            <li class="email">vspaker@ya.ru</li>
+            <li class="telegram">@ajambex</li>
+          </ul>
+        </article>
+        <article class="brief">
+          <h3>About myself</h3>
+          <p>
+            My first expierence in web dev occured in 2017 when I decided to
+            create the travel blog
+            <a href="https://aidazanami.ru/" title="Aidazanami — travel blog"
+              >aidazanami.ru</a
+            >. After years of work on my project I realized that frontend is a
+            thing that exites me a lot. And now my purpose is to become a
+            skillful frontend developer and get a job in a big company.
+          </p>
+        </article>
+      </section>
+      <section class="cv">
+        <article class="skills">
+          <h3>Skills</h3>
+          <ul>
+            <li>HTML5, CSS3</li>
+            <li>JavaScript (ES5, ES2015+)</li>
+            <li>React JS</li>
+            <li>Git, GitHub</li>
+            <li>VSCode</li>
+            <li>Adobe Photoshop, Figma</li>
+          </ul>
+        </article>
+        <article class="expierence">
+          <h3>Expierence</h3>
+          <p>
+            Since 2017 I’ve taken several courses in frontend development and
+            created a couple of training projects using HTML5, CSS3, JavaScript
+            (ES5, ES2015+), OOP patterns and React. I published all of them on
+            <a href="https://github.com/vspaker/" title="github.com/vspaker"
+              >GitHub</a
+            >. I also have a small experience in commercial development:
+            sometimes I take orders for create simple landing pages.
+          </p>
+        </article>
+        <article class="code_sample">
+          <h3>Code sample</h3>
+          <code
+            >var uniqueInOrder=function(iterable){ let results = []; for (let i
+            = 0; i < iterable.length; i++) { if (results[results.length - 1] !==
+            iterable[i]) { results.push(iterable[i]) } } return results; }</code
+          >
+        </article>
+        <article class="education">
+          <h3>Education</h3>
+          <ul>
+            <li>University: Moscow State Forest University, Linguistics</li>
+            <li>Courses: HTML Academy, FreeCodeCamp, Udemy</li>
+          </ul>
+        </article>
+        <article class="english">
+          <h3>English</h3>
+          <p>
+            B1+. I have a relevant diploma in linguistics and three-year
+            experience in written translations.
+          </p>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="credits">
+        Pavel Nikolaev, 2021.
+        <a href="https://github.com/vspaker" title="github.com/vspaker"
+          >Github.com/vspaker</a
+        >
+      </div>
+      <a class="footer_logo" title="RS School">
+        <img src="images/rs_school_js.svg" width="100" height="50" />
+      </a>
+    </footer>
+  </body>
 </html>
