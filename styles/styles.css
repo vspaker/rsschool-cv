@@ -88,7 +88,8 @@ h2 {
   text-align: justify;
 }
 
-.about a {
+.about a,
+footer a {
   color: #000000;
   text-decoration: none;
   -webkit-transition-property: color;
@@ -99,15 +100,18 @@ h2 {
   transition-duration: 0.2s;
 }
 
-.about a:hover {
+.about a:hover,
+footer a:hover {
   color: #ffffff;
 }
 
-.about a:focus {
+.about a:focus,
+footer a:focus {
   color: #b67b7b;
 }
 
-.about a:active {
+.about a:active,
+footer a:active {
   color: #ff0000;
 }
 
