@@ -1,3 +1,190 @@
-.mua {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  display: flex;
+  width: 900px;
+  margin: 30px auto 0;
+  background-color: #ffffff;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.about {
+  background-color: #e5e2e2;
+  padding: 1em;
+}
+
+.about,
+.name,
+.contacts,
+.brief {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photo {
+  margin-top: 1.5em;
+  padding: 5px;
+  border: 7px solid #b67b7b;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 1.5em;
+  margin-bottom: 0.5em;
+  font-size: 24px;
+  text-transform: uppercase;
+}
+
+h1::after {
+  content: "";
+  position: relative;
+  display: block;
+  top: 5px;
+  left: 10px;
+  width: 185px;
+  height: 3px;
+  background-color: #ffffff;
+}
+
+h2 {
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+
+.about h3 {
+  margin-top: 1em;
+  margin-bottom: 0.7em;
+  font-size: 1.1em;
+  text-transform: uppercase;
+}
+
+.about article {
+  margin-top: 4em;
+}
+
+.about p {
+  margin-bottom: 4em;
+  padding: 1.5em;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+.about a {
+  color: #000000;
+  text-decoration: none;
+  transition-property: color;
+  transition-duration: 0.2s;
+}
+
+.about a:hover {
   color: #ffffff;
+}
+
+.about a:focus {
+  color: #b67b7b;
+}
+
+.about a:active {
+  color: #ff0000;
+}
+
+.contacts li {
+  margin-top: 0.3em;
+}
+
+.phone::before,
+.email::before,
+.telegram::before {
+  content: "";
+  display: inline-block;
+  position: relative;
+  top: 7px;
+  left: -7px;
+  width: 24px;
+  height: 24px;
+}
+
+.phone::before {
+  background: url(../images/icons/phone.png) no-repeat left top;
+}
+
+.email::before {
+  background: url(../images/icons/mail.png) no-repeat left top;
+}
+
+.telegram::before {
+  background: url(../images/icons/telegram.png) no-repeat left top;
+}
+
+.about h1,
+.about h2,
+.about h3 {
+  text-align: center;
+}
+
+h3::after {
+  content: "";
+  display: block;
+  position: relative;
+  width: 150px;
+  height: 2px;
+  top: 7px;
+  background-color: #ffffff;
+}
+
+.cv h3::after {
+  background-color: #9a9a9a;
+}
+
+.cv {
+  padding: 2em;
+}
+
+.cv article {
+  margin-top: 4em;
+  margin-bottom: 1.2em;
+}
+
+.cv article:first-child {
+  margin-top: 0;
+}
+
+.cv h3 {
+  margin-bottom: 2.5em;
+}
+
+.cv ul,
+.cv p {
+  line-height: 1.5em;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 900px;
+  margin: 0 auto 2em;
+  padding: 1.5em;
+  background-color: #9a9a9a;
+  -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+  box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.credits {
+  margin-bottom: 0.4em;
+}
+
+.gh_link {
+  margin-bottom: 1.5em;
 }
