@@ -3,6 +3,14 @@
   box-sizing: border-box;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}
+
 body {
   background-color: #ffffff;
   font-family: Arial, sans-serif;
@@ -47,18 +55,18 @@ main {
   border-radius: 50%;
 }
 
-h1 {
+.name h2 {
   margin: 1.5em;
   margin-bottom: 0.5em;
   font-size: 24px;
   text-transform: uppercase;
 }
 
-h1::after {
+.name h2::after {
   content: "";
   position: relative;
   display: block;
-  top: 5px;
+  top: 12px;
   left: 10px;
   width: 185px;
   height: 3px;
@@ -159,6 +167,10 @@ h3::after {
   background-color: #ffffff;
 }
 
+.name h3::after {
+  display: none;
+}
+
 .cv h3::after {
   background-color: #9a9a9a;
 }
@@ -209,5 +221,16 @@ footer {
 }
 
 .gh_link {
-  margin-bottom: 1.5em;
+  margin-bottom: 0.7em;
+}
+
+.credits,
+.gh_link {
+  font-size: 0.65em;
+  text-transform: uppercase;
+}
+
+.code_container {
+  background-color: #e8e8e8;
+  padding: 0.8em;
 }
