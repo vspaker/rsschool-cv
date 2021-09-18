@@ -9,7 +9,11 @@
   </head>
   <body>
     <main>
+      <h1 class="visually-hidden">
+        CV: Pavel Nikolaev, Junior Frontend Developer
+      </h1>
       <section class="about">
+        <h2 class="visually-hidden">Description and Contacts</h2>
         <img
           class="photo"
           src="images/photo.jpg"
@@ -18,8 +22,8 @@
           height="250"
         />
         <article class="name">
-          <h1>Pavel Nikolaev</h1>
-          <h2>Junior Frontend Developer</h2>
+          <h2>Pavel Nikolaev</h2>
+          <h3>Junior Frontend Developer</h3>
         </article>
         <article class="contacts">
           <h3>Contact</h3>
@@ -45,6 +49,7 @@
         </article>
       </section>
       <section class="cv">
+        <h2 class="visually-hidden">Education and Skills</h2>
         <article class="skills">
           <h3>Skills</h3>
           <ul>
@@ -70,13 +75,17 @@
         </article>
         <article class="code_sample">
           <h3>Code sample</h3>
-          <code
-            >var uniqueInOrder=function(iterable){ <br />let results = [];
-            <br />for (let i = 0; i &lt; iterable.length; i++) { <br />if
-            (results[results.length - 1] !== iterable[i]) <br />{
-            results.push(iterable[i]) } <br />} <br />return results;
-            <br />}</code
-          >
+          <div class="code_container">
+            <code
+              >var uniqueInOrder = function(iterable) { <br />&nbsp;&nbsp;let
+              results = []; <br />&nbsp;&nbsp;for (let i = 0; i &lt;
+              iterable.length; i++) { <br />&nbsp;&nbsp;&nbsp;&nbsp;if
+              (results[results.length - 1] !== iterable[i]) {
+              <br />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;results.push(iterable[i])<br />&nbsp;&nbsp;&nbsp;&nbsp;}
+              <br />&nbsp;&nbsp;} <br />&nbsp;&nbsp;return results;
+              <br />}</code
+            >
+          </div>
         </article>
         <article class="education">
           <h3>Education</h3>
