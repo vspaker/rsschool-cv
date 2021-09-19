@@ -97,7 +97,8 @@ h2 {
 }
 
 .about a,
-footer a {
+footer a,
+.projects a {
   color: #000000;
   text-decoration: none;
   -webkit-transition-property: color;
@@ -113,13 +114,19 @@ footer a:hover {
   color: #ffffff;
 }
 
+.projects a:hover {
+  color: #9a9a9a;
+}
+
 .about a:focus,
-footer a:focus {
+footer a:focus,
+.projects a:focus {
   color: #b67b7b;
 }
 
 .about a:active,
-footer a:active {
+footer a:active,
+.projects a:active {
   color: #ff0000;
 }
 
@@ -245,6 +252,36 @@ footer {
   margin: 1.5em 0;
 }
 
+figcaption {
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+.projects a {
+  text-decoration: none;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+figure {
+  filter: grayscale(80%);
+  -webkit-transition-property: filter;
+  -o-transition-property: filter;
+  transition-property: filter;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+figure:hover {
+  filter: grayscale(0);
+}
+
+iframe {
+  width: 100%;
+}
+
 @media (max-width: 950px) {
   main,
   footer {
@@ -310,5 +347,13 @@ footer {
   }
   .projects img {
     margin-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .cv {
+    background-image: url(../images/cv_bg.png);
+    background-repeat: no-repeat;
+    background-position: 95% 0;
   }
 }
