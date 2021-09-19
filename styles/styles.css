@@ -97,7 +97,8 @@ h2 {
 }
 
 .about a,
-footer a {
+footer a,
+.projects a {
   color: #000000;
   text-decoration: none;
   -webkit-transition-property: color;
@@ -113,13 +114,19 @@ footer a:hover {
   color: #ffffff;
 }
 
+.projects a:hover {
+  color: #9a9a9a;
+}
+
 .about a:focus,
-footer a:focus {
+footer a:focus,
+.projects a:focus {
   color: #b67b7b;
 }
 
 .about a:active,
-footer a:active {
+footer a:active,
+.projects a:active {
   color: #ff0000;
 }
 
@@ -233,4 +240,120 @@ footer {
 .code_container {
   background-color: #e8e8e8;
   padding: 0.8em;
+}
+
+.projects {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  margin: 1.5em 0;
+}
+
+figcaption {
+  text-align: center;
+  margin-top: 0.3em;
+}
+
+.projects a {
+  text-decoration: none;
+  font-size: 0.75em;
+  text-transform: uppercase;
+  padding: 2px;
+}
+
+figure {
+  filter: grayscale(80%);
+  -webkit-transition-property: filter;
+  -o-transition-property: filter;
+  transition-property: filter;
+  -webkit-transition-duration: 0.2s;
+  -o-transition-duration: 0.2s;
+  transition-duration: 0.2s;
+}
+
+figure:hover {
+  filter: grayscale(0);
+}
+
+iframe {
+  width: 100%;
+}
+
+@media (max-width: 950px) {
+  main,
+  footer {
+    margin: 0 auto 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 920px) {
+  main,
+  footer {
+    width: 768px;
+    margin: 0 auto;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 767px) {
+  main,
+  footer {
+    width: 100%;
+  }
+  main {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .cv article {
+    margin-top: 2.5em;
+  }
+
+  .about p {
+    margin-bottom: 1.5em;
+  }
+
+  .name h2 {
+    line-height: 28px;
+  }
+
+  .name h3 {
+    line-height: 1.3em;
+  }
+}
+
+@media (min-width: 500px) and (max-width: 767px) {
+  .projects {
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+}
+
+@media (max-width: 499px) {
+  .projects {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .projects img {
+    margin-top: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .cv {
+    background-image: url(../images/cv_bg.png);
+    background-repeat: no-repeat;
+    background-position: 95% 0;
+  }
 }
