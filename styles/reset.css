@@ -90,7 +90,7 @@ video {
   border: 0;
   vertical-align: baseline;
 }
-/* HTML5 display-role reset for older browsers */
+
 article,
 aside,
 details,
@@ -124,7 +124,6 @@ q:after {
   content: none;
 }
 
-/* Don't kill focus outline for keyboard users: http://24ways.org/2009/dont-lose-your-focus */
 a:hover,
 a:active {
   outline: none;
