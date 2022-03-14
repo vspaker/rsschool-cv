@@ -1,14 +1,14 @@
 # Pavel Nikolaev
 
-![Pavel Nikolaev](photo.jpg)
+![Pavel Nikolaev](images/photo-250.jpg)
 
 ## Junior Frontend Developer
 
 ### Contacts
 
-* **Phone:** +79679891035
-* **E-mail:** vspaker@ya.ru
-* **Telegram:** @ajambex
+- **Phone:** +79679891035
+- **E-mail:** vspaker@ya.ru
+- **Telegram:** @ajambex
 
 ### Briefly About Myself
 
@@ -16,26 +16,25 @@ My first expierence in web dev occured in 2017 when I decided to create the trav
 
 ### Skills
 
-* HTML5, CSS3
-* JavaScript (ES5, ES2015+)
-* React JS
-* Git, GitHub
-* VSCode
-* Adobe Photoshop, Figma
+- HTML5, CSS3
+- JavaScript (ES5, ES2015+)
+- React JS
+- Git, GitHub
+- VSCode
+- Adobe Photoshop, Figma
 
 ### Code Sample
 
-```javascript 
-var uniqueInOrder=function(iterable){
-  //your code here - remember iterable can be a string or an array
-let results = [];
+```javascript
+var uniqueInOrder = function (iterable) {
+  let results = [];
   for (let i = 0; i < iterable.length; i++) {
-if (results[results.length - 1] !== iterable[i]) {
- results.push(iterable[i])
-}
+    if (results[results.length - 1] !== iterable[i]) {
+      results.push(iterable[i]);
     }
-return results;
-}
+  }
+  return results;
+};
 ```
 
 ### Expierence
@@ -44,8 +43,8 @@ Since 2017 I've taken several courses in frontend development and created a coup
 
 ### Education
 
-* **University:** Moscow State Forest University, Linguistics
-* **Courses**: HTML Academy, FreeCodeCamp, Udemy
+- **University:** Moscow State Forest University, Linguistics
+- **Courses**: HTML Academy, FreeCodeCamp, Udemy
 
 ### English
 
