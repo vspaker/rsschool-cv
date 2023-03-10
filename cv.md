@@ -28,7 +28,7 @@ However, now I have a feeling that I have achieved maximum results in my profess
 - HTML
 - CSS (+ Sass)
 - JavaScript (ES5, ES6+, [Codewars 5 kuy](https://www.codewars.com/users/rsschool_07725fadc07f0dd3))
-- Git (+ console), GitHub
+- Git (+ console), GitHub ([my profile](https://github.com/vspaker))
 - VS Code
 - Photoshop, Figma
 
